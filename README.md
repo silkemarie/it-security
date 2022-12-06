@@ -16,6 +16,7 @@ Once you’re done, and if you want, you can use a password-cracking tool like J
 ## The assignment for nslookup:
 
 The first draft of the code was not safe. It could be hacked by, when asked for a domain name, giving it a domain name AND a command. 
+
 E.g.: www.kea.dk & dir
 
 This would give us the domain information + the ls information. 
