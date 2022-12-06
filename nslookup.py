@@ -19,13 +19,4 @@ else:
 
 #=====================================¨
 
-
-"""
- # Can also be solved with shell=False
- # In that case line 14-15 would look like this:
-
-response = subprocess.check_output(command, shell=False, encoding="UTF-8")
-print(response)
-
-
-"""
+#Initially I had shell=True but have discovered that shell=False provides further protection. 
