@@ -1,8 +1,7 @@
 # it-security
 
-==============================================================================================================================================
 
-The assignment for crypt:
+##The assignment for crypt:
 
 Assignment description:
 
@@ -12,9 +11,9 @@ The shadow file of a Linux operating system contains the following line:
 You’re asked to crack the given hash, knowing that the password is in a 3-digit format. You’re encouraged to solve this exercise using Python. 
 Once you’re done, and if you want, you can use a password-cracking tool like John the Ripper to confirm the result.
 
-==============================================================================================================================================
 
-The assignment for nslookup:
+
+##The assignment for nslookup:
 
 The first draft of the code was not safe. It could be hacked by, when asked for a domain name, giving it a domain name AND a command. 
 E.g.: www.kea.dk & dir
